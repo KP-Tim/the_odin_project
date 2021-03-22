@@ -1,5 +1,44 @@
-ul {
-  list-style-type: none;
+.navi a:hover {
+  text-decoration: underline;
+}
 
+ul.horizontal {
+  list-style-type: none;
+  margin: 0;
   padding: 0;
+  overflow: hidden;
+}
+
+ul.horizontal li {
+  float: left;
+}
+
+ul.horizontal li a {
+  display: inline-block;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  color: black;
+  text-align: center;
+  padding: 10px; 16px;
+  text-decoration: none;
+}
+
+
+ul.right li a {
+  display: inline-block;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  color: black;
+  text-align: center;
+  padding: 10px; 16px;
+  text-decoration: none;
+}
+
+
+.googleimage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  margin-top: auto;
 }
